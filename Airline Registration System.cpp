@@ -109,14 +109,7 @@ public:
                 }
                 cout<<"press any key to go back to main menu"<<endl;
                 cin>>bck;
-                if(bck==1)
-                {
-                    mainMenu();
-                }
-                else
-                {
-                    mainMenu();
-                }
+                mainMenu();
                 break;
     }
      case 2:{ cout<<"__________Welcome to Fly Canada________\n"<<endl;
@@ -157,14 +150,7 @@ public:
                 }
                 cout<<"press any key to go back to main menu"<<endl;
                 cin>>bck;
-                if(bck==1)
-                {
-                    mainMenu();
-                }
-                else
-                {
-                    mainMenu();
-                }
+                mainMenu();
                 break;
     }
      case 3:{ cout<<"__________Welcome to American Airlines________\n"<<endl;
@@ -205,14 +191,7 @@ public:
                 }
                 cout<<"press any key to go back to main menu"<<endl;
                 cin>>bck;
-                if(bck==1)
-                {
-                    mainMenu();
-                }
-                else
-                {
-                    mainMenu();
-                }
+                mainMenu();
                 break;
     }
     case 4:{ cout<<"__________Welcome to UK Airways________\n"<<endl;
@@ -244,14 +223,7 @@ public:
                 }
                 cout<<"press any key to go back to main menu"<<endl;
                 cin>>bck;
-                if(bck==1)
-                {
-                    mainMenu();
-                }
-                else
-                {
-                    mainMenu();
-                }
+                mainMenu();
                 break;
     }
     case 5:{ cout<<"__________Welcome to Fly Australia________\n"<<endl;
@@ -273,14 +245,7 @@ public:
                 }
                 cout<<"press any key to go back to main menu"<<endl;
                 cin>>bck;
-                if(bck==1)
-                {
-                    mainMenu();
-                }
-                else
-                {
-                    mainMenu();
-                }
+                mainMenu();
                 break;
     }
     default:
@@ -392,14 +357,7 @@ void mainMenu()
             cout<<"Press any key to go back to main menu";
             cin>>bck;
 
-            if(bck==1)
-            {
-                mainMenu();
-            }
-            else
-            {
-                mainMenu();
-            }
+            mainMenu();
             break;
         }
     case 2:
@@ -422,10 +380,7 @@ void mainMenu()
                 t.displayBill();
                 cout<<"press any key to go back to main menu";
                 cin>>bck;
-                if(bck==1)
-                    mainMenu();
-                else
-                    mainMenu();
+                 mainMenu();
 
             }
 
